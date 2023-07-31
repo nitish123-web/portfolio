@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Tripathi.Ai - know about nitish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1>Welcome !!!</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="headertext">
+                <p>Front End developer</p>
+                <h1>Hii , I am <span>Nitish</span> Tripathi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------about------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/frontline.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>To work in learning and challenging
+                        environment utilizing my skills and knowledge
+                        to be the best of my abilities and contribute
+                        positively to my personal growth as well as
+                        growth of the organization</p>
+
+
+                    <div class="tab-tites">
+                        <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('Experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('Education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front End designing<br></span>I like designing FrontEnd</li>
+                            <li><span>Web developer<br></span>Creating responsive websites</li>
+                            <li><span>Learning languages<br></span>HTML5 , CSS3 , Javascript , Core JAVA , MySQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-ta" id="Experience">
+                        <ul>
+                            <li><span>2021 - 2023<br></span>Worked as a chat support executive<br>One point one
+                                solutions pvt ltd</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018<br></span>Completed SSC </li>
+                            <li><span>2020<br></span>Completed HSC with science stream</li>
+                            <li><span>2023<br></span>Completed Bachlors in computer science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------services------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>My favourite part is helping clients figure out more about their unique style and how they want
+                        their branding to make a customer of theirs feel. I love having the opportunity to use my
+                        creative skills to create imagery and a web design that aligns with the brand's message.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Learning Languages</h2>
+                    <p>Learning to code not only allows you to give machines instructions, but it also teaches you
+                        abstract thinking and problem-solving. In fact, problem-solving skills and creativity are key to
+                        becoming a successful computer programmer. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Ms Excel</h2>
+                    <p>MS Excel helps us organize and manage our data more efficiently. We can easily store and access
+                        large amounts of data in one place, and sort and filter it according to our needs. Analysis: MS
+                        Excel allows us to analyze and interpret data more effectively.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- --------------------------------portfolio-------------------------------------------- -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/web.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web designing</h3>
+                        <p>A web designer is responsible for creating the design and layout of a website or web pages.
+                            Unlike web developers, who specialise in creating new websites' structures and the code that
+                            forms these, web designers tend to focus on the visual aspects of a site, such as its layout
+                            and its usability</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/front.jpg" alt="">
+                    <div class="layer">
+                        <h3>Front End development</h3>
+                        <p>Front-end development focuses on the user-facing side of a website. Front-end developers
+                            ensure that visitors can easily interact with and navigate sites by using programming
+                            languages, design skills, and other tools. They produce the drop-down menus, layouts, and
+                            designs for websites.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/chat.jpg" alt="">
+                    <div class="layer">
+                        <h3>Chatting service</h3>
+                        <p>Provides assistance via Chat and/or Email to the customers with their questions, issues, new
+                            orders, service delivery requirements, billing, and any other query.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- -------------------------contact------------------------------ -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"> nitishtripathi2002@</i></p>
+                    <p><i class="fa-solid fa-square-phone"> 8451095097</i></p>
+                    <div class="social-icons">
+                        <a href="https://github.com/nitish123-web/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/nitishmanitripathi__?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D "><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></i></a>
+                        <a href="https://www.linkedin.com/in/nitish-tripathi-5a8695269 "><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="nitishtripathi.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright &copy; Nitish Tripathi <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxegIV9Y_nbV6OrIEvFDJTRDDF1KP1ZZLm29nPM4Z-FKagu8qmOrYZlLkWEQjdMbkmJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully  !!!!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
